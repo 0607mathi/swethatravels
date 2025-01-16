@@ -16,7 +16,7 @@ function App() {
       <div className="app-container">
         {/* Header */}
         <div className="header">
-          <h2>Swetha Tours & Travels</h2>
+          <h2>Sri Swetha Tours & Travels</h2>
           <div className="nav-bar">
             <ol>
               <li><a href="">Home</a></li>
@@ -32,7 +32,7 @@ function App() {
           
           <div className="text-area" data-aos="fade-right">
             <span className="color-text">Welcome</span> to <br />
-            Swetha <span className="color-text">Tours & Travels...!</span> <br />
+            Sri Swetha <span className="color-text">Tours & Travels...!</span> <br />
             <span className='sentance'><span className='color-text'>your Gateway to</span> Unforgettable Adventures !</span>
           </div>
 
@@ -40,8 +40,13 @@ function App() {
         </div>
         {/* Home */}
         <div className="home-section">
-          <p>Discover the world like never before with expertly crafted travel experiences. Whether you're seeking serene escapes, thrilling adventures, or cultural explorations, we’ve got the perfect trip for you.</p>
+          <div className='headName'><span>Home</span></div>
+          <div className=''>
+            <img src="Study abroad-rafiki.svg" data-aos="fade-right" className='' alt="" />
+            <p className='' data-aos="fade-left">Discover the world like never before with expertly crafted travel experiences. Whether you're seeking serene escapes, thrilling adventures, or cultural explorations, we’ve got the perfect trip for you.</p>
+          </div>
         </div>
+        {/* About */}
       </div>
     </>
   )
