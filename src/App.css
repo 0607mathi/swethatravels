@@ -6,6 +6,7 @@ html,body{
   font-style: normal;
   padding: 0;
   margin: 0;
+  color:aliceblue;
 }
 
 .br{
@@ -17,8 +18,7 @@ html,body{
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px;
-    background-color:#fcfb00 ;
-    color:black;
+    background-color:#141F2E;
     border-radius: 0px 0px 10px 10px;
 }
 
@@ -35,11 +35,33 @@ ol{
 ol>li>a{
   text-decoration: none;
   cursor: pointer;
-  color: black;
+  color:aliceblue;
   font-weight: 600;
 }
+  
 
 ol>li>a:hover{
-  color:red;
-  text-decoration: underline;
+  color:#018DEB;
+  border: none;
+  border-bottom: 3px solid aliceblue;
+  border-radius:1px ;
+}
+
+.banner-section{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  gap: 10%;
+}
+
+.banner-section>img{
+  width: 30%;
+  height: 400px;
+  border-radius: 7px;
+}
+
+.text-area{
+  color: black;
+  text-align: center;
+  font-size:50px;
 }
