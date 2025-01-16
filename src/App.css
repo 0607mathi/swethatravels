@@ -106,8 +106,6 @@ ol>li>a:hover{
   left: 11rem;
 }
 
-
-
 .home-section{
   color:#141F2E;
   display: flex;
@@ -117,7 +115,7 @@ ol>li>a:hover{
 }
 
 .home-section>div{
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,3 +148,84 @@ ol>li>a:hover{
     border-bottom: 5px solid #018DEB;
     padding: 0px 4px;
 }
+
+.plan-content{
+  color:#141F2E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.plan-content>p{
+  color: rgb(79, 78, 78);
+  font-size: 15px;
+}
+
+.plan-content>button{
+  border: none;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  background: #018DEB;
+  border-radius: 4px;
+  font-family: "Poppins", serif;
+}
+
+.plan-content>button:hover{
+  background: #22a3f8;
+}
+
+.plan-content>button>a{
+  text-decoration: none;
+  color: white;
+}
+
+.service-section{
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  justify-content: center;
+  align-items: center; 
+  color: #141F2E;
+}
+
+.service-section>.ser-box{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  gap: 30px;
+  padding: 1%;
+}
+
+.service-section>.ser-box>.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  padding: 5px;
+  width: 300px;
+  box-shadow: 0px 0px 5px 5px #ecf3fade;
+}
+
+.service-section>.ser-box>.box>img{
+  width: 50%;
+  border-radius: 7px;
+}
+
+.service-section>.ser-box>.box>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.service-section>.ser-box>.box>div>span{
+  color: rgb(79, 78, 78);
+  font-size: 15px;
+}
+
