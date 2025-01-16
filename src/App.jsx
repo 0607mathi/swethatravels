@@ -7,7 +7,7 @@ function App() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      once: false, 
+      once: true, 
     });
   }, []);
 
@@ -100,10 +100,53 @@ function App() {
               <img src="cruise-rafiki.svg" className='' alt="" />
               <div className=''>
                 <h3>Cruise Bookings</h3>
-                <span>Sail through breathtaking oceans and rivers with our exclusive cruise packages for families, couples, and groups.</span>
+                <span>Explore oceans with our exclusive cruise packages!</span>
               </div>
             </div>
           </div>
+        </div>
+        {/* Booking */}
+        <div className="booking-section">
+        <div className='headName' data-aos="fade-down"><span>Booking</span></div>
+        <div className="vehicles">
+
+          <div className="box crysta"data-aos="zoom-in">
+              <img src="bannercrysta.png" className='crysta' alt="" />
+              <div className=''>
+                <h3>Innova Crysta</h3>
+                <span>Above 300 Km - Per Km 18rs or <br />else 3500rs Per day + 13rs Per Km </span>
+              </div>
+              <button>Book</button>
+          </div>
+
+          <div className="box etios"data-aos="zoom-in">
+              <img src="etios.png" className='' alt="" />
+              <div className=''>
+                <h3>Etios</h3>
+                <span>Above 300 Km - Per Km 13rs or <br />else 2000rs Per day + 10rs Per Km </span>
+              </div>
+              <button>Book</button>
+          </div>
+
+          <div className="box swift"data-aos="zoom-in">
+              <img src="swiftdizer.png" className='' alt="" />
+              <div className=''>
+                <h3>Swift Dzire</h3>
+                <span>Above 300 Km - Per Km 13rs or <br />else 2000rs Per day + 10rs Per Km </span>
+              </div>
+              <button>Book</button>
+          </div>
+
+          <div className="box innova"data-aos="zoom-in">
+              <img src="innova.png" className='' alt="" />
+              <div className=''>
+                <h3>Innova</h3>
+                <span>Above 300 Km - Per Km 16rs or <br />else 2500rs Per day + 12rs Per Km </span>
+              </div>
+              <button>Book</button>
+          </div>
+          
+        </div>
         </div>
       </div>
     </>
