@@ -108,6 +108,26 @@ function App() {
         {/* Booking */}
         <div className="booking-section">
         <div className='headName' data-aos="fade-down"><span>Booking</span></div>
+        {/* select journy date */}
+        <div className="date-section br">
+          <div className="origin">
+            <span>Origin</span><br />
+            <input type="text" placeholder='From'/>
+          </div>
+          <div className="destination">
+            <span>Destination</span> <br />
+            <input type="text" placeholder='To'/>
+          </div>
+          <div className="ownwardsdate">
+            <span>Onwards Date</span> <br />
+            <input type="date" placeholder='From'/>
+          </div>
+          <div className="returndate">
+            <span>Return Date</span> <br />
+            <input type="date" placeholder='From'/>
+          </div>
+          <button>Book</button>
+        </div>
         <div className="vehicles">
 
           <div className="box crysta"data-aos="zoom-in">

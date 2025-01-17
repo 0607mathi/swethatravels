@@ -275,3 +275,18 @@ ol>li>a:hover{
   font-family: "Poppins", serif;
   color: white;
 }
+
+.date-section{
+  margin-top: 2em;
+  padding: 1em;
+  display: flex;
+  gap:20px;
+  color: #141F2E;
+}
+
+.date-section>div>input{
+  border: none;
+  border-bottom: 2px solid #018DEB;
+  outline: none;
+  
+}
