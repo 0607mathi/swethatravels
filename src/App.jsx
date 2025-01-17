@@ -109,7 +109,7 @@ function App() {
         <div className="booking-section">
         <div className='headName' data-aos="fade-down"><span>Booking</span></div>
         {/* select journy date */}
-        <div className="date-section br">
+        <div className="date-section">
           <div className="origin">
             <span>Origin</span><br />
             <input type="text" placeholder='From'/>

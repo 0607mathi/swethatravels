@@ -280,13 +280,26 @@ ol>li>a:hover{
   margin-top: 2em;
   padding: 1em;
   display: flex;
-  gap:20px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap:4.5em;
   color: #141F2E;
+  box-shadow: 0px 0px 5px 5px #ecf3fade;
+  border-radius: 7px;
 }
 
 .date-section>div>input{
   border: none;
   border-bottom: 2px solid #018DEB;
   outline: none;
-  
+}
+
+.date-section>button{
+  padding:10px 1.5em;
+  border: none;
+  background: #018DEB;
+  font-weight: 600;
+  color: aliceblue;
+  border-radius: 4px;
+  font-family: "Poppins", serif;
 }
