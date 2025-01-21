@@ -23,24 +23,23 @@ function App() {
               <li><a href="">Services</a></li>
               <li><a href="">Booking</a></li>
               <li><a href="">Contact</a></li>
-              <li><a href="">Enquiery</a></li>
             </ol>
           </div>
         </div>
         {/* Banner */}
         <div className="banner-section">
           
-          <div className="text-area" data-aos="fade-right">
+          <div className="text-area" data-aos="zoom-in">
             <span className="color-text">Welcome</span> to <br />
             Sri Swetha <span className="color-text">Tours & Travels...!</span> <br />
             <span className='sentance'><span className='color-text'>your Gateway to</span> Unforgettable Adventures !</span>
           </div>
 
-          <img src="Road trip-rafiki.svg" data-aos="fade-left" alt="" className='logo-image-travel' />
+          {/* <img src="Road trip-rafiki.svg" data-aos="fade-left" alt="" className='logo-image-travel' /> */}
         </div>
         {/* Home */}
         <div className="home-section">
-          <div className='headName'><span>Home</span></div>
+          <div className='headName' data-aos="zoom-in"><span>Home</span></div>
           <div className=''>
             <img src="Study abroad-rafiki.svg" data-aos="fade-right" className='' alt="" />
             <p className='' data-aos="fade-left">Discover the world like never before with expertly crafted travel experiences. Whether you're seeking serene escapes, thrilling adventures, or cultural explorations, we’ve got the perfect trip for you.</p>
@@ -107,9 +106,9 @@ function App() {
         </div>
         {/* Booking */}
         <div className="booking-section">
-        <div className='headName' data-aos="fade-down"><span>Booking</span></div>
+        <div className='headName' data-aos="zoom-in"><span>Booking</span></div>
         {/* select journy date */}
-        <div className="date-section">
+        <div className="date-section" data-aos="zoom-in">
           <div className="origin">
             <span>Origin</span><br />
             <input type="text" placeholder='From'/>
@@ -130,7 +129,7 @@ function App() {
         </div>
         <div className="vehicles">
 
-          <div className="box crysta"data-aos="zoom-in">
+          <div className="box crysta"data-aos="fade-right">
               <img src="bannercrysta.png" className='crysta' alt="" />
               <div className=''>
                 <h3>Innova Crysta</h3>
@@ -139,7 +138,7 @@ function App() {
               <button>Book</button>
           </div>
 
-          <div className="box etios"data-aos="zoom-in">
+          <div className="box etios"data-aos="fade-left">
               <img src="etios.png" className='' alt="" />
               <div className=''>
                 <h3>Etios</h3>
@@ -148,7 +147,7 @@ function App() {
               <button>Book</button>
           </div>
 
-          <div className="box swift"data-aos="zoom-in">
+          <div className="box swift"data-aos="fade-right">
               <img src="swiftdizer.png" className='' alt="" />
               <div className=''>
                 <h3>Swift Dzire</h3>
@@ -157,7 +156,7 @@ function App() {
               <button>Book</button>
           </div>
 
-          <div className="box innova"data-aos="zoom-in">
+          <div className="box innova"data-aos="fade-left">
               <img src="innova.png" className='' alt="" />
               <div className=''>
                 <h3>Innova</h3>
@@ -168,6 +167,27 @@ function App() {
           
         </div>
         </div>
+        {/* Contact */}
+        <div className="contact-section">
+            <div className="contact-box">
+              <h3>Contact</h3>
+              <ul>
+                <li><a href='#'>sriswethatravels@gmail.com</a></li>
+                <li><a href='#'>9442062233</a></li>
+                <li><a href='#'>8248477166</a></li>
+              </ul>
+            </div>
+            <div className="quicklinks">
+              <h3>Quick Link</h3>
+              <ul>
+                <li><a href='#'>Home</a></li>
+                <li><a href='#'>Service</a></li>
+                <li><a href='#'>Bookings</a></li>
+              </ul>
+            </div>
+        </div>
+        {/* footer */}
+        <div className='design'>Copy rights @ 2025 | Desigined by Mathi</div>
       </div>
     </>
   )
