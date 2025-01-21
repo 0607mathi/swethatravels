@@ -316,6 +316,7 @@ ol>li>a:hover{
   justify-content: center;
   align-items: center;
   gap: 3em;
+  border-radius: 7px 7px 0px 0px;
 }
 
 .contact-section h3{
