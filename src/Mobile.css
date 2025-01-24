@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,body{
+    font-family: "Poppins", serif;
+    /* font-weight: 500; */
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    color:aliceblue;
+    position: relative;
+  }
+
+  
+/* For Mobile Qureey */
+
+@media (min-width: 300px) and (max-width: 720px) {
+    /* nav bar */
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-items: center;
+        padding: 5px 5px;
+        background-color:#141F2E;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .header>h2{
+        font-size:small;
+    }
+
+    .nav-bar>ol{
+        display: none;
+    }
+
+    .nav-bar>.menuButton{
+        background: transparent;
+        border: none;
+        color: aliceblue;
+    }
+
+    .dropdown{
+        position: absolute;
+        width: 85%;
+        z-index: 1;
+        background-color: #141f2e;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius:10px;margin-top: 3px;
+        padding: 1.5em 1.5em 1.5em 1.5em;
+        gap: 1em;
+    }
+
+    .dropdown>span{
+        font-size: small;
+    }
+      
+    .dropdown>span>a{
+        text-decoration: none;
+        cursor: pointer;
+        color:aliceblue;
+        font-weight: 600;
+        font-size: small;
+    }
+        
+    .dropdown>span>a:hover{
+        border-bottom: 3px solid aliceblue;
+        border-radius:1px ;
+    }
+
+    /* Banner */
+    .banner-section{
+        padding: 7em 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* background-color: #8EC5FC; */
+        border-radius: 7px;
+        background-image: url('/bannerBg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+      }
+
+      .banner-section>img{
+        border-radius: 7px;
+        justify-self: flex-start;
+      }
+      
+      .text-area{
+        color:yellow;
+        text-align: center;
+        font-weight: 500;
+        font-style: normal;
+        font-size:medium;
+        padding: 1%;
+        border-radius: 7px;
+        text-shadow: 0px 0px 4px yellowgreen;
+      }
+      
+      .color-text{
+        color:white;
+        text-shadow: 0px 0px 2px white;
+      }
+
+      .sentance{
+        font-size:7px ;
+        position: absolute;
+        bottom: -10px;
+        left: 2.3rem;
+      }
+
+    /* Home */
+    .home-section{
+        color:#141F2E;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .home-section>div{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .home-section>div>img{
+        width: 99%;
+        height: 200px;
+      }
+      
+      .home-section>div>p{
+        text-align: center;
+        font-size:small;
+        width: 90%;
+        padding: 1%;
+        border-radius: 7px;
+        box-shadow: 0px 0px 5px 5px #ecf3fade;
+      }
+      
+      .headName{
+        justify-self: center;
+        color: #018DEB;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+      }
+      
+      .headName>span{
+          border: 5px solid transparent;
+          border-bottom: 5px solid #018DEB;
+          padding: 0px 4px;
+      }
+
+      /* Plane  */
+      .plan-content{
+        color:#141F2E;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+      }
+
+      .plan-content>h3{
+        font-size: medium;
+      }
+      
+      .plan-content>p{
+        color: rgb(79, 78, 78);
+        font-size:small;
+        text-align: center;
+      }
+      
+      .plan-content>button{
+        border: none;
+        padding: 5px 5px;
+        font-size: small;
+        font-weight: 600;
+        background: #018DEB;
+        border-radius: 4px;
+        font-family: "Poppins", serif;
+      }
+      
+      .plan-content>button:hover{
+        background: #22a3f8;
+      }
+      
+      .plan-content>button>a{
+        text-decoration: none;
+        color: white;
+      }
+
+      .service-section{
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        justify-content: center;
+        align-items: center; 
+        color: #141F2E;
+      }
+      
+      .service-section>.ser-box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        gap: 30px;
+        padding: 1%;
+      }
+      
+      .service-section>.ser-box>.box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;
+        padding: 5px;
+        width: 300px;
+        box-shadow: 0px 0px 5px 5px #ecf3fade;
+      }
+      
+      .service-section>.ser-box>.box>img{
+        width: 50%;
+        border-radius: 7px;
+      }
+      
+      .service-section>.ser-box>.box>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .service-section>.ser-box>.box>div>h3{
+        font-size:medium; 
+      }
+      
+      .service-section>.ser-box>.box>div>span{
+        color: rgb(79, 78, 78);
+        font-size: small;
+      }
+
+      .booking-section{
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .booking-section>.vehicles{
+        margin-top: 1em;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        gap: 25px;
+        padding: 1%;
+      }
+      
+      .booking-section>.vehicles>.box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;
+        padding: 5px;
+        width: 97%;
+        box-shadow: 0px 0px 5px 5px #ecf3fade;
+        color: #141F2E;
+        text-align: center;
+        font-size: small;
+      }
+      
+      .booking-section>.vehicles>.box>img{
+        height: 130px;
+      }
+      
+      .booking-section>.vehicles>.box>button{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        border: none;
+        padding: 5px 20px;
+        font-size:small;
+        font-weight: 600;
+        background: #018DEB;
+        border-radius: 4px;
+        font-family: "Poppins", serif;
+        color: white;
+      }
+      
+      .date-section{
+        margin-top: 2em;
+        padding: 1em;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap:1em;
+        font-size: small;
+        color: #141F2E;
+        box-shadow: 0px 0px 5px 5px #ecf3fade;
+        border-radius: 7px;
+        text-align: center;
+      }
+      
+      .date-section>div>input{
+        border: none;
+        border-bottom: 2px solid #018DEB;
+        outline: none;
+      }
+      
+      .date-section>button{
+        padding:5px 1.5em;
+        border: none;
+        background: #018DEB;
+        font-weight: 600;
+        color: aliceblue;
+        border-radius: 4px;
+        font-family: "Poppins", serif;
+      }
+
+      /* Contact */
+      .contact-section{
+        margin-top: 1em;
+        background-color: #141F2E;
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        border-radius: 7px 7px 0px 0px;
+      }
+      
+      .contact-section h3{
+        text-align: center;
+        font-size: medium;
+      }
+      
+      .contact-section span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .contact-section span:hover{
+        cursor: pointer;
+        text-decoration: underline;
+      }
+      
+      .contact-section span>a{
+        text-decoration: none;
+        color: rgba(240, 248, 255, 0.797);
+        font-size: small;
+      }
+
+      /* .contact-section>.contact-box,.quicklinks{
+        padding: 0em 0em;
+      } */
+
+      .design{
+        background-color: #141F2E;
+        text-align: center;
+        font-size:xx-small;
+        padding: 1em;
+      }
+  }
