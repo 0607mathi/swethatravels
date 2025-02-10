@@ -1,0 +1,22 @@
+{
+    "booking":{
+        "Vechical1":["Innova Crysta","Above 300 Km - Per Km 18rs or else 3500rs Per day + 13rs Per Km"],
+        "Vechical2":["Etios","Above 300 Km - Per Km 13rs or else 2000rs Per day + 10rs Per Km"],
+        "Vechical3":["Swift Dzire","Above 300 Km - Per Km 13rs or else 2000rs Per day + 10rs Per Km"],
+        "Vechical4":["Innova","Above 300 Km - Per Km 16rs or else 2500rs Per day + 12rs Per Km"]
+    },
+
+    "Contact":{
+        "email":"sriswethatravels@gmail.com",
+        "phone1":"+91 9442062233",
+        "phone2":"+91 8248477166"
+    },
+
+    "BookingDetails":{
+        "orgin":"",
+        "destination":"",
+        "fromDate":"",
+        "toDate":"",
+        "Vechicaldetails":""
+    }
+}

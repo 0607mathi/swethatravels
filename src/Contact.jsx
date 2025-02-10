@@ -1,5 +1,5 @@
 import React from 'react'
-
+import data from './data.json'
 export const Contact = () => {
   return (
     <>
@@ -7,9 +7,9 @@ export const Contact = () => {
             <div className="contact-box">
               <h3>Contact</h3>
               
-                <span><a href='#'>sriswethatravels@gmail.com</a></span>
-                <span><a href='#'>9442062233</a></span>
-                <span><a href='#'>8248477166</a></span>
+                <span><a href={`mailto:${data.Contact.email}`}>{data.Contact.email}</a></span>
+                <span><a href={`tel:${data.Contact.phone1}`}>{data.Contact.phone1}</a></span>
+                <span><a href={`tel:${data.Contact.phone2}`}>{data.Contact.phone2}</a></span>
               
             </div>
             <div className="quicklinks">

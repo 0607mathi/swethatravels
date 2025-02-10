@@ -12,7 +12,6 @@ import { Booking } from './Booking';
 import { Contact } from './Contact';
 import { Footer } from './Footer';
 
-
 function App() {
   useEffect(() => {
     AOS.init({
@@ -20,6 +19,8 @@ function App() {
       once: true, 
     });
   }, []);
+
+  console.log("")
 
   return (
     <>
