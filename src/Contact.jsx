@@ -3,7 +3,7 @@ import React from 'react'
 export const Contact = () => {
   return (
     <>
-        <div className="contact-section">
+        <div className="contact-section" id='contact'>
             <div className="contact-box">
               <h3>Contact</h3>
               
@@ -15,9 +15,9 @@ export const Contact = () => {
             <div className="quicklinks">
               <h3>Quick Link</h3>
               
-                <span><a href='#'>Home</a></span>
-                <span><a href='#'>Service</a></span>
-                <span><a href='#'>Bookings</a></span>
+                <span><a href='#home'>Home</a></span>
+                <span><a href='#services'>Service</a></span>
+                <span><a href='#booking'>Bookings</a></span>
              
             </div>
         </div>

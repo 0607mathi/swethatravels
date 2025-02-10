@@ -3,7 +3,7 @@ import React from 'react'
 const Service = () => {
   return (
     <>
-        <div className="service-section">
+        <div className="service-section" id='services'>
           <div className='headName' data-aos="fade-down"><span>Our Services</span></div>
           <div className="ser-box">
             <div className="box" data-aos="fade-right">

@@ -3,7 +3,7 @@ import React from 'react'
 export const Booking = () => {
   return (
     <>
-        <div className="booking-section">
+        <div className="booking-section" id='booking'>
         <div className='headName' data-aos="zoom-in"><span>Booking</span></div>
         {/* select journy date */}
         <div className="date-section" data-aos="zoom-in">

@@ -3,7 +3,7 @@ import React from 'react'
 export const Home = () => {
   return (
     <>
-        <div className="home-section">
+        <div className="home-section" id='home'>
           <div className='headName' data-aos="zoom-in"><span>Home</span></div>
           <div className=''>
             <img src="Study abroad-rafiki.svg" data-aos="fade-right" className='' alt="" />
