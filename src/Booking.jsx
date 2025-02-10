@@ -20,7 +20,7 @@ function Vechical1(){
   let whatsapp2 = `https://wa.me/${data.Contact.phone2}?text=${bookingData}`
   window.open(whatsapp1,"_blank")
   window.open(whatsapp2,"_blank")
-  console.log(bookingData)
+  // console.log(bookingData)
   
 }
 function Vechical2(){
@@ -41,7 +41,7 @@ function Vechical2(){
   let whatsapp2 = `https://wa.me/${data.Contact.phone2}?text=${bookingData}`
   window.open(whatsapp1,"_blank")
   window.open(whatsapp2,"_blank")
-  console.log(bookingData)
+  // console.log(bookingData)
   
 }
 function Vechical3(){
@@ -62,7 +62,7 @@ function Vechical3(){
   let whatsapp2 = `https://wa.me/${data.Contact.phone2}?text=${bookingData}`
   window.open(whatsapp1,"_blank")
   window.open(whatsapp2,"_blank")
-  console.log(bookingData)
+  // console.log(bookingData)
 
 }
 function Vechical4(){
@@ -85,7 +85,7 @@ function Vechical4(){
   window.open(whatsapp1,"_blank")
   window.open(whatsapp2,"_blank")
 
-  console.log(bookingData)
+  // console.log(bookingData)
 }
 const [origin,setOrgin]=useState("");
 const [destination,setDestination]=useState("");
