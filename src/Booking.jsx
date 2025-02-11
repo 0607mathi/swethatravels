@@ -104,7 +104,6 @@ const ToDate = (e)=>{
   setToDate(e.target.value)
 }
 
-
 const bookVechical =()=>{
   alert("Choose Your Vechical!")
   setVechicalStatus(prev =>!prev)
