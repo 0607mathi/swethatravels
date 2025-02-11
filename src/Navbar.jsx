@@ -26,10 +26,10 @@ export const Navbar = () => {
 
         {/* drop down */}
         {isOn?<div className={`dropdown`} data-aos="fade-down">
-              <span><a href="">Home</a></span>
-              <span><a href="">Services</a></span>
-              <span><a href="">Booking</a></span>
-              <span><a href="">Contact</a></span>
+              <span><a href="#home">Home</a></span>
+              <span><a href="#services">Services</a></span>
+              <span><a href="#booking">Booking</a></span>
+              <span><a href="#contact">Contact</a></span>
         </div>:''}
     </>
   )
