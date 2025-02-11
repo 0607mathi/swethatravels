@@ -10,11 +10,11 @@ function Vechical1(){
   data.BookingDetails.Vechicaldetails = data.booking.Vechical1[0]
 
   const bookingData=(`
-  orgin:${data.BookingDetails.orgin}
-  destination:${data.BookingDetails.destination}
-  fromDate:${data.BookingDetails.fromDate}
-  toDate:${data.BookingDetails.toDate}
-  Vechical:${data.BookingDetails.Vechicaldetails}
+  Orgin       :${data.BookingDetails.orgin}
+  Destination :${data.BookingDetails.destination}
+  FromDate    :${data.BookingDetails.fromDate}
+  ToDate      :${data.BookingDetails.toDate}
+  Vechical    :${data.BookingDetails.Vechicaldetails}
   `)
   let whatsapp1 = `https://wa.me/${data.Contact.phone1}?text=${bookingData}`
   let whatsapp2 = `https://wa.me/${data.Contact.phone2}?text=${bookingData}`
@@ -78,9 +78,9 @@ function Vechical4(){
   `)
 
   let whatsapp1 = `https://wa.me/${data.Contact.phone1}?text=${bookingData}`
-  let whatsapp2 = `https://wa.me/${data.Contact.phone2}?text=${bookingData}`
+  // let whatsapp2 = `https://wa.me/${data.Contact.phone2}?text=${bookingData}`
   window.open(whatsapp1,"_blank")
-  window.open(whatsapp2,"_blank")
+  // window.open(whatsapp2,"_blank")
 }
 
 const [origin,setOrgin]=useState("");
