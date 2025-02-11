@@ -20,9 +20,8 @@ function Vechical1(){
   let whatsapp2 = `https://wa.me/${data.Contact.phone2}?text=${bookingData}`
   window.open(whatsapp1,"_blank")
   window.open(whatsapp2,"_blank")
-  // console.log(bookingData)
-  
 }
+
 function Vechical2(){
   data.BookingDetails.orgin = origin
   data.BookingDetails.destination = destination
@@ -41,9 +40,8 @@ function Vechical2(){
   let whatsapp2 = `https://wa.me/${data.Contact.phone2}?text=${bookingData}`
   window.open(whatsapp1,"_blank")
   window.open(whatsapp2,"_blank")
-  // console.log(bookingData)
-  
 }
+
 function Vechical3(){
   data.BookingDetails.orgin = origin
   data.BookingDetails.destination = destination
@@ -62,9 +60,8 @@ function Vechical3(){
   let whatsapp2 = `https://wa.me/${data.Contact.phone2}?text=${bookingData}`
   window.open(whatsapp1,"_blank")
   window.open(whatsapp2,"_blank")
-  // console.log(bookingData)
-
 }
+
 function Vechical4(){
   data.BookingDetails.orgin = origin
   data.BookingDetails.destination = destination
@@ -84,9 +81,8 @@ function Vechical4(){
   let whatsapp2 = `https://wa.me/${data.Contact.phone2}?text=${bookingData}`
   window.open(whatsapp1,"_blank")
   window.open(whatsapp2,"_blank")
-
-  // console.log(bookingData)
 }
+
 const [origin,setOrgin]=useState("");
 const [destination,setDestination]=useState("");
 const [fromDate,setFromDate]=useState("");
@@ -108,10 +104,6 @@ const ToDate = (e)=>{
   setToDate(e.target.value)
 }
 
-// console.log(origin)
-// console.log(destination)
-// console.log(fromDate)
-// console.log(toDate)
 
 const bookVechical =()=>{
   alert("Choose Your Vechical!")
