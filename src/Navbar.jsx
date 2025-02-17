@@ -12,10 +12,10 @@ export const Navbar = () => {
     <>
     {/* Header */}
     <div className="header">
-          <h2>Sri Swetha Tours & Travels</h2>
+          <h2><a href="#header">Sri Swetha Tours & Travels</a></h2>
           <div className="nav-bar">
             <ol>
-              <li><a href="#home">Home</a></li>
+              <li><a  href="#home">Home</a></li>
               <li><a href="#services">Services</a></li>
               <li><a href="#booking">Booking</a></li>
               <li><a href="#contact">Contact</a></li>
@@ -26,10 +26,10 @@ export const Navbar = () => {
 
         {/* drop down */}
         {isOn?<div className={`dropdown`} data-aos="fade-down">
-              <span><a href="#home">Home</a></span>
-              <span><a href="#services">Services</a></span>
-              <span><a href="#booking">Booking</a></span>
-              <span><a href="#contact">Contact</a></span>
+              <span><a href="#home" onClick={toggleSwitch} >Home</a></span>
+              <span><a href="#services" onClick={toggleSwitch} >Services</a></span>
+              <span><a href="#booking" onClick={toggleSwitch} >Booking</a></span>
+              <span><a href="#contact" onClick={toggleSwitch} >Contact</a></span>
         </div>:''}
     </>
   )

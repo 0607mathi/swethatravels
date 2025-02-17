@@ -36,12 +36,20 @@ html,body{
     border: 1px solid black;
 }
 
+.header>h2>a{
+  text-decoration: none;
+  color: aliceblue
+}
+
 @media (min-width: 721px) and (max-width: 2440px) {
 
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
     padding: 10px 10px;
     background-color:#141F2E;
     border-radius: 0px 0px 10px 10px;

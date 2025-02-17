@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      <div className="app-container">
+      <div className="app-container" id='header'>
         {/* Header */}
         <Navbar />
         
