@@ -16,9 +16,9 @@ function Vechical1(){
   ToDate      :${data.BookingDetails.toDate}
   Vechical    :${data.BookingDetails.Vechicaldetails}
   `)
-  let whatsapp1 = `https://wa.me/${data.Contact.phone1}?text=${bookingData}`
+  // let whatsapp1 = `https://wa.me/${data.Contact.phone1}?text=${bookingData}`
   let whatsapp2 = `https://wa.me/${data.Contact.phone2}?text=${bookingData}`
-  window.open(whatsapp1,"_blank")
+  // window.open(whatsapp1,"_blank")
   window.open(whatsapp2,"_blank")
 }
 
@@ -36,9 +36,9 @@ function Vechical2(){
   ToDate      :${data.BookingDetails.toDate}
   Vechical    :${data.BookingDetails.Vechicaldetails}
   `)
-  let whatsapp1 = `https://wa.me/${data.Contact.phone1}?text=${bookingData}`
+  // let whatsapp1 = `https://wa.me/${data.Contact.phone1}?text=${bookingData}`
   let whatsapp2 = `https://wa.me/${data.Contact.phone2}?text=${bookingData}`
-  window.open(whatsapp1,"_blank")
+  // window.open(whatsapp1,"_blank")
   window.open(whatsapp2,"_blank")
 }
 
@@ -56,10 +56,10 @@ function Vechical3(){
   ToDate      :${data.BookingDetails.toDate}
   Vechical    :${data.BookingDetails.Vechicaldetails}
   `)
-  let whatsapp1 = `https://wa.me/${data.Contact.phone1}?text=${bookingData}`
+  // let whatsapp1 = `https://wa.me/${data.Contact.phone1}?text=${bookingData}`
   let whatsapp2 = `https://wa.me/${data.Contact.phone2}?text=${bookingData}`
   window.open(whatsapp1,"_blank")
-  window.open(whatsapp2,"_blank")
+  // window.open(whatsapp2,"_blank")
 }
 
 function Vechical4(){
