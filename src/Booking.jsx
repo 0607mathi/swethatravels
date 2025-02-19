@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import data from './data.json'
-import { use } from 'react'
+
 export const Booking = () => {
 function Vechical1(){
   data.BookingDetails.orgin = origin
@@ -30,11 +30,11 @@ function Vechical2(){
   data.BookingDetails.Vechicaldetails = data.booking.Vechical2[0]
 
   const bookingData=(`
-  orgin:${data.BookingDetails.orgin}
-  destination:${data.BookingDetails.destination}
-  fromDate:${data.BookingDetails.fromDate}
-  toDate:${data.BookingDetails.toDate}
-  Vechical:${data.BookingDetails.Vechicaldetails}
+  Orgin       :${data.BookingDetails.orgin}
+  Destination :${data.BookingDetails.destination}
+  FromDate    :${data.BookingDetails.fromDate}
+  ToDate      :${data.BookingDetails.toDate}
+  Vechical    :${data.BookingDetails.Vechicaldetails}
   `)
   let whatsapp1 = `https://wa.me/${data.Contact.phone1}?text=${bookingData}`
   let whatsapp2 = `https://wa.me/${data.Contact.phone2}?text=${bookingData}`
@@ -50,11 +50,11 @@ function Vechical3(){
   data.BookingDetails.Vechicaldetails = data.booking.Vechical3[0]
 
   const bookingData = (`
-  orgin:${data.BookingDetails.orgin}
-  destination:${data.BookingDetails.destination}
-  fromDate:${data.BookingDetails.fromDate}
-  toDate:${data.BookingDetails.toDate}
-  Vechical:${data.BookingDetails.Vechicaldetails}
+  Orgin       :${data.BookingDetails.orgin}
+  Destination :${data.BookingDetails.destination}
+  FromDate    :${data.BookingDetails.fromDate}
+  ToDate      :${data.BookingDetails.toDate}
+  Vechical    :${data.BookingDetails.Vechicaldetails}
   `)
   let whatsapp1 = `https://wa.me/${data.Contact.phone1}?text=${bookingData}`
   let whatsapp2 = `https://wa.me/${data.Contact.phone2}?text=${bookingData}`
@@ -70,17 +70,17 @@ function Vechical4(){
   data.BookingDetails.Vechicaldetails = data.booking.Vechical4[0] 
 
   const bookingData=(`
-  orgin:${data.BookingDetails.orgin}
-  destination:${data.BookingDetails.destination}
-  fromDate:${data.BookingDetails.fromDate}
-  toDate:${data.BookingDetails.toDate}
-  Vechical:${data.BookingDetails.Vechicaldetails}
+  Orgin       :${data.BookingDetails.orgin}
+  Destination :${data.BookingDetails.destination}
+  FromDate    :${data.BookingDetails.fromDate}
+  ToDate      :${data.BookingDetails.toDate}
+  Vechical    :${data.BookingDetails.Vechicaldetails}
   `)
 
-  let whatsapp1 = `https://wa.me/${data.Contact.phone1}?text=${bookingData}`
-  // let whatsapp2 = `https://wa.me/${data.Contact.phone2}?text=${bookingData}`
-  window.open(whatsapp1,"_blank")
-  // window.open(whatsapp2,"_blank")
+  // let whatsapp1 = `https://wa.me/${data.Contact.phone1}?text=${bookingData}`
+  let whatsapp2 = `https://wa.me/${data.Contact.phone2}?text=${bookingData}`
+  // window.open(whatsapp1,"_blank")
+  window.open(whatsapp2,"_blank")
 }
 
 const [origin,setOrgin]=useState("");
@@ -117,7 +117,7 @@ const bookVechical =()=>{
         <div className="date-section" data-aos="zoom-in">
           <div className="origin">
             <span>Origin</span><br />
-            <input type="text" placeholder='From' value={origin} onChange={Origin}/>
+            <input type="text" placeholder='From' value={'Salem'} onChange={Origin}/>
           </div>
           <div className="destination">
             <span>Destination</span> <br />

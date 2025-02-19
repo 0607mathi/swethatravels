@@ -13,7 +13,7 @@
     },
 
     "BookingDetails":{
-        "orgin":"",
+        "orgin":"Salem",
         "destination":"",
         "fromDate":"",
         "toDate":"",

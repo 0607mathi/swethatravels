@@ -293,11 +293,12 @@ ol>li>a:hover{
   border-radius: 4px;
   font-family: "Poppins", serif;
   color: white;
+  cursor: pointer;
 }
 
 .date-section{
   margin-top: 2em;
-  padding: 1em;
+  padding: 3.4em;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -321,6 +322,7 @@ ol>li>a:hover{
   color: aliceblue;
   border-radius: 4px;
   font-family: "Poppins", serif;
+  cursor: pointer;
 }
 
 .contact-section{
