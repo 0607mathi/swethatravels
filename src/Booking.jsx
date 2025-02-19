@@ -83,7 +83,7 @@ function Vechical4(){
   window.open(whatsapp2,"_blank")
 }
 
-const [origin,setOrgin]=useState("");
+const [origin,setOrgin]=useState("Salem");
 const [destination,setDestination]=useState("");
 const [fromDate,setFromDate]=useState("");
 const [toDate,setToDate]=useState("");
@@ -117,7 +117,7 @@ const bookVechical =()=>{
         <div className="date-section" data-aos="zoom-in">
           <div className="origin">
             <span>Origin</span><br />
-            <input type="text" placeholder='From' value={'Salem'} onChange={Origin}/>
+            <input type="text" placeholder='From' value={origin} onChange={Origin}/>
           </div>
           <div className="destination">
             <span>Destination</span> <br />
